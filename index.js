@@ -51,7 +51,7 @@ let oddCheck = isOdd(7);
 console.log("2. Is Odd: ", oddCheck);  
 
 // 3. Find Minimum
-let minNumber = findMin([5, 3, 9, 1, 4]);
+let minNumber = findMin([5, 3, 9, 2, 4]);
 console.log("3. Minimum number: ", minNumber);  
 
 // 4. Filter Even Numbers
@@ -59,7 +59,7 @@ let evenNumbers = filterEvenNumbers([5, 6, 7, 8, 9, 10, 2]);
 console.log("4. Even numbers: ", evenNumbers);  
 
 // 5. Sort Array in Descending Order
-let sortedArray = sortArrayDescending([1, 7, 5, 3, 9, 2]);
+let sortedArray = sortArrayDescending([1, 7, 5, 3, 10, 2]);
 console.log("5. Sorted in descending order: ", sortedArray);
 
 // 6. Lowercase First Letter of a String
